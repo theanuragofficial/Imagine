@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  font-family: Ebrima;
+}
+.nav1 {
+  width: auto;
+  height: 27pt;
+  background-color: #272727c4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 27pt;
+  font-size: 10pt;
+  position: sticky;
+  top: 0;
+}
+.nav1 > a {
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+  font-weight: 200;
+}
+.nav2 {
+  width: auto;
+  height: 32pt;
+  background-color: #272727ea;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2pt;
+  font-size: 11pt;
+  color: aliceblue;
+}
+.nav2 > a {
+  color: #0071e3;
+  text-decoration: none;
+}
+.nav2 > a:hover {
+  text-decoration: underline;
+}
+.hero1 {
+  background-image: url("./first.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500pt;
+}
+.hero1 > button {
+  font-size: 13pt;
+  background-color: #0071e3;
+  border: none;
+  border-radius: 20pt;
+  position: relative;
+  top: 130pt;
+  left: 423pt;
+  width: 100pt;
+  height: 35pt;
+}
+#btn1 {
+  color: white;
+}
+#btn2 {
+  width: 60pt;
+  color: #0071e3;
+  background-color: transparent;
+  border: #0071e3 1px solid;
+}
+#btn2:hover {
+  background-color: #0071e3;
+  color: white;
+}
+.hero2 {
+  background-image: url("./second.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500pt;
+  margin-top: -60pt;
+}
+.hero2 > button {
+  font-size: 13pt;
+  background-color: #0071e3;
+  border: none;
+  border-radius: 20pt;
+  position: relative;
+  top: 130pt;
+  left: 423pt;
+  width: 100pt;
+  height: 35pt;
+}
+.hero3 {
+  background-image: url("./third.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500pt;
+  margin-top: -60pt;
+}
+.hero3 > button {
+  font-size: 13pt;
+  background-color: #0071e3;
+  border: none;
+  border-radius: 20pt;
+  position: relative;
+  top: 130pt;
+  left: 423pt;
+  width: 100pt;
+  height: 35pt;
+}
+.hero4 {
+  background-image: url("./forth.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500pt;
+  margin-top: -50pt;
+  margin-bottom: -30pt;
+}
+.hero4 > button {
+  font-size: 13pt;
+  background-color: #0071e3;
+  border: none;
+  border-radius: 20pt;
+  width: 90pt;
+  height: 30pt;
+}
+.btn {
+  position: relative;
+  top: 370pt;
+  left: 220pt;
+  color: white;
+}
+.hero41 > button {
+  font-size: 13pt;
+  background-color: black;
+  border: none;
+  border-radius: 20pt;
+  width: 90pt;
+  height: 30pt;
+  position: relative;
+  top: 80pt;
+  left: 680pt;
+}
+#btn11 {
+  color: white;
+}
+#btn12 {
+  width: 60pt;
+  color: black;
+  background-color: transparent;
+  border: black 1px solid;
+}
+#btn12:hover {
+  background-color: black;
+  color: white;
+}
+.para {
+  margin-top: 80px;
+  color: black;
+  font-size: 12pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: -80pt;
+}
+.un {
+  border-top: 1px solid black;
+  width: 300pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
